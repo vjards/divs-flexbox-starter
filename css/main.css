@@ -98,7 +98,7 @@ textarea {
 /***BACKGROUND IMAGE***/
 
 html {
-  background-color:black;
+  background-color:lavenderblush;
   height: 100%;
   width:100%;
 }
@@ -110,6 +110,23 @@ body {
   height: 100%;
 }
 
+header{
+    color:darkgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main p{
+    color:darkgray;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+    border-bottom:#999 1px solid;
+}
+
+footer{
+    padding:15px;
+    
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -119,7 +136,7 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color:white;
+  color:darkgray;
   line-height: 2em;
   font-size: 1em;
   border-left: #999 1px solid;
